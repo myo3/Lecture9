@@ -12,6 +12,7 @@
 		DDCCAC7B1EAEC803006A89F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCCAC7A1EAEC803006A89F3 /* Assets.xcassets */; };
 		DDCCAC891EAEC803006A89F3 /* Lecture9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCAC881EAEC803006A89F3 /* Lecture9Tests.swift */; };
 		DDCCAC941EAEC803006A89F3 /* Lecture9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCAC931EAEC803006A89F3 /* Lecture9UITests.swift */; };
+		DDCCACA61EAECF37006A89F3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCACA51EAECF37006A89F3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		DDCCAC8F1EAEC803006A89F3 /* Lecture9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lecture9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCCAC931EAEC803006A89F3 /* Lecture9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture9UITests.swift; sourceTree = "<group>"; };
 		DDCCAC951EAEC803006A89F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCCACA51EAECF37006A89F3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				DDCCAC731EAEC803006A89F3 /* AppDelegate.swift */,
+				DDCCACA51EAECF37006A89F3 /* DetailViewController.swift */,
 				DDCCAC751EAEC803006A89F3 /* ViewController.swift */,
 				DDCCAC7A1EAEC803006A89F3 /* Assets.xcassets */,
 				DDCCAC7F1EAEC803006A89F3 /* Info.plist */,
@@ -251,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDCCACA61EAECF37006A89F3 /* DetailViewController.swift in Sources */,
 				DDCCAC761EAEC803006A89F3 /* ViewController.swift in Sources */,
 				DDCCAC741EAEC803006A89F3 /* AppDelegate.swift in Sources */,
 			);
@@ -480,6 +484,7 @@
 				DDCCAC9A1EAEC803006A89F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDCCAC9B1EAEC803006A89F3 /* Build configuration list for PBXNativeTarget "Lecture9Tests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +493,7 @@
 				DDCCAC9D1EAEC803006A89F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDCCAC9E1EAEC803006A89F3 /* Build configuration list for PBXNativeTarget "Lecture9UITests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +502,7 @@
 				DDCCACA01EAEC803006A89F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
